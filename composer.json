@@ -6,7 +6,8 @@
   "authors": [
     {
       "name": "",
-      "email": ""
+      "email": "",
+      "homepage": ""
     }
   ],
   "require": {
@@ -20,6 +21,11 @@
   "autoload": {
     "psr-4": {
       "Vendor\\Package\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vendor\\Package\\Tests": "tests/"
     }
   },
   "minimum-stability": "stable",
