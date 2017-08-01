@@ -28,6 +28,16 @@
       "Vendor\\Package\\Tests": "tests/"
     }
   },
-  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+        "providers": [
+            "Vendor\\Package\\ServiceProvider"
+        ],
+        "aliases": {
+            "Package": "Vendor\\Package\\Facade"
+        }
+    }
+  },
+  "minimum-stability": "dev",
   "prefer-stable": true
 }
